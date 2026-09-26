@@ -1,0 +1,221 @@
+{
+  "schema_version": "1.0",
+  "instance": "chengdu_census2020_worldpop_block_v1",
+  "method": "2020 seventh-census district totals constrained exactly; within-district weights inherited from the WorldPop-derived population of the frozen administrative-boundary block cache; Hamilton largest-remainder integer apportionment",
+  "limitations": [
+    "Block populations are model inputs, not census counts at block level.",
+    "Within-district weights inherit uncertainty from WorldPop and road-enclosed block coverage.",
+    "The fixed 20-district boundary file is hash-pinned and is not claimed as a survey-grade cadastral boundary.",
+    "Shelter capacities are scenario inputs and are not claimed as an official capacity inventory."
+  ],
+  "source_cache": {
+    "path": "data/external/chengdu_city.npz",
+    "sha256": "2aab7846ad721dd3922f8ed40c29bad555c661ccda3934097041783e54bf43d0",
+    "source_population": 18868366.171,
+    "bundled": false
+  },
+  "census": {
+    "path": "data/chengdu_census_2020_district_population.csv",
+    "sha256": "977bd8e5282f79b417e26dbcb6263faedd7f81fd1c335c4f78ea10c2adaa8aaf",
+    "districts": 20,
+    "city_total": 20937757,
+    "bundled": true
+  },
+  "boundary": {
+    "path": "data/external/chengdu_districts_wgs84_valid.geojson",
+    "sha256": "22549667bb3bdbf061ea30769cd83975fca35327a6d793558a9734bc01661737",
+    "bundled": false
+  },
+  "output_cache": {
+    "path": "data/chengdu_census2020/chengdu_census2020_v1.npz",
+    "sha256": "910e14202af1e280c6345f909399a1cd11d4b233361b82c196c23a2e2a4df455",
+    "n_blocks": 66546,
+    "n_agents": 20937757,
+    "n_shelters": 1252,
+    "shelter_capacity": 2537800,
+    "all_non_population_arrays_unchanged": true,
+    "bundled": true
+  },
+  "district_validation": [
+    {
+      "district_index": 0,
+      "adcode": 510104,
+      "blocks": 2084,
+      "source_weight_sum": 854483.9990000001,
+      "census_target": 902933,
+      "allocated_population": 902933,
+      "scale_factor": 1.0566997170885584
+    },
+    {
+      "district_index": 1,
+      "adcode": 510105,
+      "blocks": 1964,
+      "source_weight_sum": 976788.963,
+      "census_target": 955954,
+      "allocated_population": 955954,
+      "scale_factor": 0.9786699442876485
+    },
+    {
+      "district_index": 2,
+      "adcode": 510106,
+      "blocks": 2488,
+      "source_weight_sum": 1333042.386,
+      "census_target": 1265398,
+      "allocated_population": 1265398,
+      "scale_factor": 0.949255637547297
+    },
+    {
+      "district_index": 3,
+      "adcode": 510107,
+      "blocks": 5233,
+      "source_weight_sum": 1866755.9270000001,
+      "census_target": 1855186,
+      "allocated_population": 1855186,
+      "scale_factor": 0.9938021211918187
+    },
+    {
+      "district_index": 4,
+      "adcode": 510108,
+      "blocks": 2773,
+      "source_weight_sum": 1339885.446,
+      "census_target": 1381894,
+      "allocated_population": 1381894,
+      "scale_factor": 1.0313523474155268
+    },
+    {
+      "district_index": 5,
+      "adcode": 510112,
+      "blocks": 4449,
+      "source_weight_sum": 1237698.672,
+      "census_target": 1346210,
+      "allocated_population": 1346210,
+      "scale_factor": 1.0876718465122504
+    },
+    {
+      "district_index": 6,
+      "adcode": 510113,
+      "blocks": 1314,
+      "source_weight_sum": 372189.482,
+      "census_target": 490091,
+      "allocated_population": 490091,
+      "scale_factor": 1.3167782102988068
+    },
+    {
+      "district_index": 7,
+      "adcode": 510114,
+      "blocks": 3937,
+      "source_weight_sum": 1398733.307,
+      "census_target": 1558466,
+      "allocated_population": 1558466,
+      "scale_factor": 1.114198104957259
+    },
+    {
+      "district_index": 8,
+      "adcode": 510115,
+      "blocks": 2770,
+      "source_weight_sum": 979223.0079999999,
+      "census_target": 967868,
+      "allocated_population": 967868,
+      "scale_factor": 0.9884040633162902
+    },
+    {
+      "district_index": 9,
+      "adcode": 510116,
+      "blocks": 11128,
+      "source_weight_sum": 2515459.183,
+      "census_target": 2659829,
+      "allocated_population": 2659829,
+      "scale_factor": 1.0573930270765994
+    },
+    {
+      "district_index": 10,
+      "adcode": 510117,
+      "blocks": 5996,
+      "source_weight_sum": 1654241.58,
+      "census_target": 1672025,
+      "allocated_population": 1672025,
+      "scale_factor": 1.0107501952647084
+    },
+    {
+      "district_index": 11,
+      "adcode": 510118,
+      "blocks": 1762,
+      "source_weight_sum": 305093.251,
+      "census_target": 363591,
+      "allocated_population": 363591,
+      "scale_factor": 1.1917372764171699
+    },
+    {
+      "district_index": 12,
+      "adcode": 510121,
+      "blocks": 1700,
+      "source_weight_sum": 527532.821,
+      "census_target": 800371,
+      "allocated_population": 800371,
+      "scale_factor": 1.517196595432306
+    },
+    {
+      "district_index": 13,
+      "adcode": 510129,
+      "blocks": 2086,
+      "source_weight_sum": 441761.159,
+      "census_target": 515962,
+      "allocated_population": 515962,
+      "scale_factor": 1.1679659686876185
+    },
+    {
+      "district_index": 14,
+      "adcode": 510131,
+      "blocks": 943,
+      "source_weight_sum": 165687.488,
+      "census_target": 255563,
+      "allocated_population": 255563,
+      "scale_factor": 1.5424399457368803
+    },
+    {
+      "district_index": 15,
+      "adcode": 510181,
+      "blocks": 4138,
+      "source_weight_sum": 665459.739,
+      "census_target": 710056,
+      "allocated_population": 710056,
+      "scale_factor": 1.067015716182944
+    },
+    {
+      "district_index": 16,
+      "adcode": 510182,
+      "blocks": 3657,
+      "source_weight_sum": 697826.773,
+      "census_target": 780399,
+      "allocated_population": 780399,
+      "scale_factor": 1.1183276856017101
+    },
+    {
+      "district_index": 17,
+      "adcode": 510183,
+      "blocks": 1998,
+      "source_weight_sum": 465667.787,
+      "census_target": 602973,
+      "allocated_population": 602973,
+      "scale_factor": 1.2948565840995139
+    },
+    {
+      "district_index": 18,
+      "adcode": 510184,
+      "blocks": 3402,
+      "source_weight_sum": 683075.088,
+      "census_target": 735723,
+      "allocated_population": 735723,
+      "scale_factor": 1.077074853006497
+    },
+    {
+      "district_index": 19,
+      "adcode": 510185,
+      "blocks": 2724,
+      "source_weight_sum": 387760.11199999996,
+      "census_target": 1117265,
+      "allocated_population": 1117265,
+      "scale_factor": 2.881330403576942
+    }
+  ]
+}

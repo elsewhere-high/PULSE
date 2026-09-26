@@ -1,0 +1,94 @@
+{
+  "checked_on": "2026-08-31",
+  "files": [
+    {
+      "label": "底图几何+人口 provenance",
+      "path": "chengdu_admin_blocks_provenance.json",
+      "bytes": 1934,
+      "mtime": "2026-07-31 19:33",
+      "sha256_16": "a92a11c4d7f5c287",
+      "bundled": false
+    },
+    {
+      "label": "底图街区几何",
+      "path": "chengdu_admin_blocks.geojson",
+      "bytes": 69124705,
+      "mtime": "2026-07-31 19:33",
+      "sha256_16": "9e8953fc373da2db",
+      "bundled": false
+    },
+    {
+      "label": "底图逐街区人口",
+      "path": "chengdu_admin_block_agents.json",
+      "bytes": 7072610,
+      "mtime": "2026-07-31 19:33",
+      "sha256_16": "e56cc4cf729d6caa",
+      "bundled": false
+    },
+    {
+      "label": "底图避难所",
+      "path": "chengdu_admin_block_evacuation.json",
+      "bytes": 606051,
+      "mtime": "2026-07-31 19:33",
+      "sha256_16": "27d087ddded571da",
+      "bundled": false
+    },
+    {
+      "label": "对照口径 provenance",
+      "path": "chengdu_official_blocks_provenance.json",
+      "bytes": 1672,
+      "mtime": "2026-07-31 12:04",
+      "sha256_16": "b7aac5a1705c2ffb",
+      "bundled": false
+    },
+    {
+      "label": "路网(OSM)",
+      "path": "chengdu_admin_roads.geojson",
+      "bytes": 67272681,
+      "mtime": "2026-07-31 11:53",
+      "sha256_16": "1e200fc2dbcd0263",
+      "bundled": false
+    },
+    {
+      "label": "路由缓存",
+      "path": "chengdu_routing.npz",
+      "bytes": 828990026,
+      "mtime": "2026-08-01 15:26",
+      "sha256_16": "6a38697d10aa5cc4 (前200MB)",
+      "bundled": false
+    },
+    {
+      "label": "街区缓存",
+      "path": "chengdu_p2.npz",
+      "bytes": 6984574,
+      "mtime": "2026-08-01 14:39",
+      "sha256_16": "e8d595dc7ac61f25",
+      "bundled": false
+    },
+    {
+      "label": "LLM 权重",
+      "path": "qwen2.5-7b-instruct-q4_k_m.gguf",
+      "bytes": 4683073536,
+      "mtime": "2026-07-27 10:21",
+      "sha256_16": "694840520a3a14f7 (前200MB)",
+      "bundled": false
+    },
+    {
+      "label": "能登 MLIT 道路恢复",
+      "path": "mlit_road_recovery_2024-01-12.zip",
+      "bytes": 340448,
+      "mtime": "2026-07-27 17:08",
+      "sha256_16": "d99c872648309ee1",
+      "bundled": false
+    },
+    {
+      "label": "能登真实震害",
+      "path": "Noto_Peninsula_Damage_2_5.gpkg",
+      "bytes": 47853568,
+      "mtime": "2026-07-27 12:25",
+      "sha256_16": "1adf3ff883951db4",
+      "bundled": false
+    }
+  ],
+  "path_convention": "Basenames identify external inputs used to generate the recorded samples; they are not executable paths."
+}

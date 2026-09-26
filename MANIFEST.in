@@ -1,0 +1,11 @@
+include README.md LICENSE THIRD_PARTY_NOTICES.md environment.yml run_experiment.py
+include .gitattributes
+recursive-include docs *.md *.png
+recursive-include scripts *.py *.sh
+recursive-include tests *.py
+recursive-include data *.json *.csv *.npz *.md
+include results/DATA_DICTIONARY.md results/caliber.json results/data_provenance.json results/traceability.json
+include results/requirements-lock.txt results/analysis_dataset.csv results/paired_effects.csv results/effect_summary.csv
+recursive-include results/runs_raw *.json
+prune data/external
+global-exclude __pycache__ *.py[cod] .DS_Store

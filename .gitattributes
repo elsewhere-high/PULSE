@@ -1,0 +1,9 @@
+# Preserve byte-stable sample CSV/JSON and binary data.
+results/*.csv -text
+results/*.json -text
+results/runs_raw/*.json -text
+data/** -text
+*.py text eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+*.md text eol=lf

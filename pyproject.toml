@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulse"
+version = "0.1.0"
+description = "PULSE: evacuation experiments with regional coordination and capacity constraints"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "AGPL-3.0-only"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "Ustinian5"}]
+dependencies = []
+
+[project.optional-dependencies]
+city = ["numpy>=1.24", "torch>=2.2"]
+plots = ["matplotlib>=3.8"]
+dev = ["build>=1.2"]
+
+[project.scripts]
+pulse-explore = "pulse.experiment:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

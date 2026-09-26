@@ -1,0 +1,36 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.conda/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+# Generated experiments; recorded sample fixtures remain tracked
+results-ci/
+results/demo/
+results/city_demo/
+results/cache/
+results/city_run/
+results/matrix/
+results/chengdu_census2020/
+results/figures/
+results/construction_log.txt
+results/summary.json
+results/trials.json
+results/demand_scan.csv
+results/queue_series.csv
+results/*.svg
+data/external/
+models/
