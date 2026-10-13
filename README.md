@@ -4,6 +4,17 @@ PULSE 用于比较疏散策略对排队、完成率、容量利用和区域协�
 
 ![PULSE 机理实验](docs/pulse_demo.png)
 
+## 2026 上海开源软件应用创新大赛
+
+参赛赛道：**AI+ 工业软件**。作品定位为面向工业园区应急规划的 AI 辅助疏散策略仿真与评估研究原型。
+
+- [作品介绍 PDF](https://github.com/elsewhere-high/PULSE/releases/download/os2026-submission-v1/PULSE_OS2026_Project_Introduction.pdf)
+- [中文演示视频 MP4](https://github.com/elsewhere-high/PULSE/releases/download/os2026-submission-v1/PULSE_OS2026_Demo.mp4)
+- [参赛 Release：视频、文档、字幕及运行证据](https://github.com/elsewhere-high/PULSE/releases/tag/os2026-submission-v1)
+- [演示范围与材料复现](docs/COMPETITION.md)
+
+视频展示真实 CLI 输出与本次仿真结果回放；既有大规模样例仅作核验，未重新运行。当前尚未完成真实园区校准。
+
 ## 快速开始
 
 所有 Python 命令都在 Conda 环境中执行。推荐 Python 3.12。
@@ -55,6 +66,8 @@ conda run -n pulse python -m build --no-isolation
 `verify_evidence_chain.py` 检查机理模型、单元测试及随附 48 份样例的守恒、容量、数据表再生和配对关系。样例核验不等于重新运行完整城市实验。只安装基础包时，城市测试会明确跳过；安装 `city` 依赖后执行。
 
 开发和 Python API 见 [开发说明](docs/DEVELOPMENT.md)。本项目提供 CLI、JSON/CSV 和图表，没有网页前端。
+
+提交问题和代码贡献见 [贡献指南](CONTRIBUTING.md)。
 
 ## 许可
 

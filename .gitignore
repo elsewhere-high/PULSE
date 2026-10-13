@@ -34,3 +34,5 @@ results/queue_series.csv
 results/*.svg
 data/external/
 models/
+output/
+tmp/

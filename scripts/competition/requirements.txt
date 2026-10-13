@@ -1,0 +1,7 @@
+# Artifact authoring dependencies; install inside the pulse Conda environment.
+reportlab>=4
+pypdf>=5
+imageio-ffmpeg>=0.6
+Pillow>=10
+matplotlib>=3.8
+numpy>=1.24
